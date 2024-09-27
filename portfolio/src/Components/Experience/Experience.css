@@ -1,0 +1,50 @@
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+    margin: 80px 170px;
+
+  }
+
+  .myexperience-title{
+    position: relative;
+}
+
+.myexperience-title h1{
+ padding: 0px 30px;
+ font-size: 80px;
+ font-weight: 600;
+}
+
+.myexperience-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+
+  
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card-content{
+    max-width: 600px;
+    padding: 5px 30px;
+    border: 1px solid #ff00ff;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.companylogo{
+    height: 60px;
+    width: 60px;
+}

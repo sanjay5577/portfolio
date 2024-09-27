@@ -1,32 +1,37 @@
 import React from 'react'
 import './Footer.css'
-import footer_logo from '../../assets/footer_logo.svg'
-import user_icon from '../../assets/user_icon.svg'
+import github_logo from '../../assets/pngfind.com-github-logo-png-1766942.png'
+import linkedin_logo from '../../assets/pngfind.com-linkedin-png-533561.png'
+import instagram_logo from '../../assets/pngfind.com-instagram-png-white-2773517.png'
 
 const Footer = () => {
   return (
     <div className='footer'>
         <div className="footer-top">
-            <div className="footer-top-left">
-                <img src={footer_logo} alt='footerlogo'/>
-                <p>Im a fullstack developer from Bengaluru, india with 3+ years of experience </p>
-            </div>
             <div className="footer-top-right">
-                <div className="footer-email-input">
-                    <img src={user_icon} alt=''/>
-                    <input  type='email' placeholder ='Enter your Email'/>
+                <p>Visit my social profile and get connected</p>
+                <div className="footer-connect">
+                    
+                    <div className="github-connect">
+                        <img src={github_logo} className='sociallogo' alt='githublogo'/>
+                        <span>GitHub</span>
+                    </div>
+                    <div className="linkedin-connect">
+                        <img src={linkedin_logo}className='sociallogo' alt='linkedinlogo'/>
+                        <span>LinkedIn</span>
+                    </div>
+
+                    <div className="instagram-connect">
+                        <img src={instagram_logo} className='sociallogo' alt='instalogo'/>
+                        <span>Instagram</span>
+                    </div>
                 </div>
-                <div className="footer-subscribe">Subscribe</div>
+                
             </div>
         </div>
         <hr/>
         <div className="footer-bottom">
-            <p className="footer-bottom-left">Copyright © 2024 Sanjay R.All rights are reserved.</p> 
-        </div>
-        <div className="footer-bottom-right">
-            <p>Term of Services</p>
-            <p>Privacy Policy</p>
-            <p>Connect with me</p>
+            <p className="footer-bottom-left">© 2024.&nbsp;  Designed by Sanjay R. &nbsp; All right reserved.</p> 
         </div>
 
     </div>
