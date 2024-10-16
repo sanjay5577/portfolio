@@ -17,7 +17,7 @@ const mywork_data = [
     },
     {
         w_no:2,
-        w_img:project2_img
+        w_img:project2_img,
         w_name:"Gemini Chatbot",
         w_description : "Seamlessly connected the Gemini API to handle real-time user queries and dynamically fetch responses. Utilized API calls to power the chatbot's data-driven responses, providing users with relevant and contextual information.",
         w_teckStack : ["Reactjs" , "CSS" ,"Vite" , "Gemini API"],
@@ -26,7 +26,7 @@ const mywork_data = [
     },
     {
         w_no:3,
-        w_img:project3_img
+        w_img:project3_img,
         w_name:"Cryptodesk",
         w_description : "Integrated CoinGecko API to fetch real-time cryptocurrency data and display dynamic content. Utilized Chart.js to create interactive charts for visualizing cryptocurrency price fluctuations. Enhanced user experience with a responsive design, ensuring seamless use across devices. Optimized search functionality using debouncing to improve performance with minimal API calls.",
         w_teckStack : ["Reactjs" , "CSS" ,"CoinGecko API" , "Chart.js"],

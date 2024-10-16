@@ -33,21 +33,22 @@ const Experience = () => {
             
             <ul>
               <li>
-                Developed and managed the backend of an e-commerce platform using Flask, MongoDB, and AWS.
+              Built the frontend for an automation tool called Alias Executor, where users can import projects and execute text scripts with configurable threads and delays. The tool also displays the execution results for user review.
               </li>
               <li>
-                Worked on three web applications targeting customers, selling vendors, and admin users; built 50+ RESTful APIs with functionalities
-                such as login/sign up, view a product, add a product to cart, checkout the order, etc.
+              Increased the Automation Coverage from 40% to 65% which helped to capture bugs during enhancements.
               </li>
-              <li>Improved the response time by 20% by refactoring the codebase and changing database design and queries.</li>
-              <li>Added a bulk upload feature which reduced the manual work of adding products into a database.</li>
+              <li>Covered 100% manual scenarios with automation that decreased regression time from 5 days to 2 days</li>
+              <li>Performed Regression, Smoke, API Testing on daily basis for NodeJs Microservices Migration Project which
+resulted in robust and scalable solution which reduced time consumption by 25%.</li>
               <li>
-                <b>Tools:</b> Python, Flask, MongoDB
+                <li>Awarded as ”Cool Collaborator” for NodeJs Microservices Migration</li>
+                <span className="experience-tools"><br/><b>Tools:</b> React, Node, MongoDB </span>
               </li>
             </ul>
           
           <div className="card-action">
-            <span>July 2020 - Nov 2020 | Hyderabad, India</span>
+            <span>Oct 2021 - Sep 2024 | Bengaluru, India</span>
           </div>
         </div>
       </div>
