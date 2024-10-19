@@ -50,6 +50,13 @@
   font-weight: 500;
 }
 
+.about-para span {
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .about-skills {
   display: flex;
   flex-direction: column;
@@ -80,6 +87,13 @@
   height: 8px;
   border-radius: 50px;
   background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+}
+
+.about-emoji {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  margin-left: 3px;
 }
 
 .teck-stack {

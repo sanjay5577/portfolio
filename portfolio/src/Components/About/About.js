@@ -2,6 +2,10 @@ import React from "react";
 import "./About.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import profile_img from "../../assets/profile_img2_enhanced.jpeg";
+import innovation_img from "../../assets/innovation_emoji.png";
+import growth_img from "../../assets/growth_image.png";
+import excited_img from "../../assets/excited-emoji.png";
+import mindset_img from "../../assets/mindset_emoji.jpg";
 import techstack_data from "../../assets/techstack_data";
 
 const About = () => {
@@ -18,24 +22,43 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              Hi! My name is SANJAY R. I am a passionate developer having
-              experience in Frontend development complemented by backend
-              expertise and I'm currently working at Accenture as a Software
-              Engineer. I am much interested in developing new things which
-              excite me a lot. :)
+              Hi! <span>I'm SANJAY R,</span> a passionate Software Engineer with a strong
+              foundation in Frontend development, complemented by backend
+              expertise. Currently working at Accenture, I thrive on innovation
+              and enjoy creating exciting new solutions.
+              <img
+                className="about-emoji"
+                src={excited_img}
+                alt="excited-emoji"
+              />
             </p>
             <p>
-              I love exploring new technologies and being a practitioner, I like
-              to stay on top of latest trends. My problem-solving mindset and
-              active GitHub profile showcase my commitment to innovative and
-              collaborative coding.
+              As a tech enthusiast, I constantly explore the latest technologies
+              and trends, ensuring I stay ahead in the field. My problem-solving
+              mindset
+              <img
+                className="about-emoji"
+                src={mindset_img}
+                alt="mindset-emoji"
+              />{" "}
+              and active GitHub profile reflect my dedication to collaborative,
+              cutting-edge coding and innovative experiences.
+              <img
+                className="about-emoji"
+                src={innovation_img}
+                alt="innovation-emoji"
+              />
             </p>
 
             <p>
-              Looking for an opportunity to work in a challenging position
-              combining my skills in Software Engineering, which provides
-              professional development, interesting experiences and personal
-              growth.
+              I'm eager to take on challenging roles that combine my skills in
+              Software Engineering, offering opportunities for professional
+              development, and personal growth. 🚀{" "}
+              <img
+                className="about-emoji"
+                src={growth_img}
+                alt="growth-emoji"
+              />
             </p>
           </div>
         </div>

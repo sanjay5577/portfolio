@@ -15,6 +15,7 @@ const Footer = () => {
               className="github-connect"
               href="https://github.com/sanjay5577"
               target="_blank"
+              rel="noreferrer noopener"
             >
               <img src={github_logo} className="sociallogo" alt="githublogo" />
               <span>GitHub</span>
@@ -23,6 +24,7 @@ const Footer = () => {
               className="linkedin-connect"
               href="https://www.linkedin.com/in/sanjay-r-97b151171"
               target="_blank"
+              rel="noreferrer noopener"
             >
               <img
                 src={linkedin_logo}
@@ -36,6 +38,7 @@ const Footer = () => {
               className="instagram-connect"
               href="https://www.instagram.com/sanjay__57/"
               target="_blank"
+              rel="noreferrer noopener"
             >
               <img
                 src={instagram_logo}
